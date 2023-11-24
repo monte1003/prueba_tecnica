@@ -1,14 +1,10 @@
-import React from 'react'
-import './Login.css'
+import React from "react";
+import "./Login.css";
 // Creamos la función Login que va a contener un formulario y exportarla
 const Login = () => {
-
-
   return (
-
-
     <div>
-        <form action="">
+      <form method="post" action="https://bank.jedidiazfagundez.site/api/login">
         <h1>Login</h1>
         <span>User</span>
         <input type="text" />
@@ -17,11 +13,7 @@ const Login = () => {
         <button>Log In</button>
       </form>
     </div>
-  
-  
-  )
-
-
-}
+  );
+};
 //Exportamos la función Login
-export default Login
+export default Login;
