@@ -7,9 +7,9 @@ const Login = () => {
       <form method="post" action="https://bank.jedidiazfagundez.site/api/login">
         <h1>Login</h1>
         <span>User</span>
-        <input type="text" />
+        <input type="text" name="account" id="account" />
         <span>Password</span>
-        <input type="password" name="" id="" />
+        <input type="password" name="password" id="account" />
         <button>Log In</button>
       </form>
     </div>
